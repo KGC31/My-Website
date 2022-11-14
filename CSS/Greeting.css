@@ -30,9 +30,10 @@
 #First_Intro{
   font-family: 'Cera Round Pro';
   font-size: 20px;
-  font-weight: 400;
+  max-width: 700px;
+  max-height: fit-content;
   left: 240px;
-  top: 60px;
+  top: 10px;
   position: relative;
   float: left;
   z-index: 0;
