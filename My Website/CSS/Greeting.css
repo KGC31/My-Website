@@ -1,0 +1,52 @@
+#Greeting{
+  margin-top: 50px; 
+  overflow: auto;
+  margin-bottom: 50px;
+}
+
+#Mypic{
+  position: relative;
+  float: left;
+  z-index: -1;
+  border-radius: 50%;
+  border: #1e1e1e solid 10px;
+  height: 300px;
+  width: 300px;
+  opacity: 0%;
+}
+
+.Slide{
+  animation-name:show_pic;
+  animation-duration: 2.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes show_pic{
+  0% {opacity: 0%; left: 350px;}
+  65% {opacity: 100%; left: 510px;}
+  100% {opacity: 100%; left: 160px;}
+}
+
+#First_Intro{
+  font-family: 'Cera Round Pro';
+  font-size: 20px;
+  font-weight: 400;
+  left: 240px;
+  top: 60px;
+  position: relative;
+  float: left;
+  z-index: 0;
+  opacity: 0%;
+}
+
+.Appear{
+  animation-name: show_intro;
+  animation-duration: 1s;
+  animation-delay: 1.75s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes show_intro{
+  0%{opacity: 0%;}
+  100%{opacity: 100%;}
+}  

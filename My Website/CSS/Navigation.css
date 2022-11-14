@@ -1,0 +1,47 @@
+.topnav {
+    z-index: 1;
+    margin:0%;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-color: #1e1e1e;
+    width: 100%;
+  }
+  
+  /* Default nav bar properties */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    margin: 0%;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Navbar links on mouse-over */
+  .topnav a:hover {
+    background-color: whitesmoke;
+    color: black;
+  }
+    
+    /* Current/active navbar link */
+  .topnav a.active {
+    background-color: whitesmoke;
+    color: black;
+    border:5px;
+  }
+  
+  .content {
+    padding: 16px;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
+  }

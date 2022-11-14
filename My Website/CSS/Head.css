@@ -1,0 +1,21 @@
+#header{
+  user-select: none;
+  background-color: #1e1e1e;
+  width: 100%;
+  height: 400px;
+  text-align: center;
+}
+
+#head_text{
+  position: absolute; 
+  top: 30%; 
+  left: 50%; 
+  transform: translate(-50%, -50%);
+}
+  
+.head_text{
+  font-family: 'Cera Round Pro';
+  color: white;
+  margin: 0%;
+  padding: 0%;
+}
