@@ -11,7 +11,11 @@ function myFunction() {
         document.getElementById("Mypic").className = "Slide";
         document.getElementById("First_Intro").className = "Appear";
     }
-    if(document.documentElement.scrollTop > 1800){
-        document.getElementsById("html").className = "showSkills";
+    if(document.documentElement.scrollTop > 900){
+        document.getElementById("cpp").className = "Skills showSkills";
+        document.getElementById("html").className = "Skills showSkills";
+        document.getElementById("css").className = "Skills showSkills";
+        document.getElementById("js").className = "Skills showSkills";
+        document.getElementById("python").className = "Skills showSkills";
     }
 }
